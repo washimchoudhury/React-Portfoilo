@@ -181,3 +181,21 @@ border: 1px solid yellow;
   border: 1px solid yellow;
   box-shadow: var(--box-shadow);
 }
+
+@media screen and (max-width:974px) {
+  .home .right .img{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin:auto;
+    padding-left: 10rem;
+
+  }
+  .home .left{
+    width:300px;
+    font-size: small;
+    height: 280px;
+    padding-left: 2rem;
+    margin-left: 6rem;
+  }
+}
