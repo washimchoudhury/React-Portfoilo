@@ -1,0 +1,183 @@
+/*creating a root variable */
+:root{
+--box-shadow :4px 4px 12px 8px rgba(48, 133, 23, 0.966);
+--bg-color:rgb(40,47,97);
+}
+
+body {
+  background: rgb(53, 6, 97);
+  color:white;
+}
+
+
+/*NAVBAR SECTION*/
+
+a{
+  text-decoration: none;
+  color:white;
+}
+.nav_bar{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.1rem;
+
+}
+.nav_bar .nav_items{
+padding: 1rem;
+font-size: 1.2rem;
+font-weight: bold;
+}
+
+.nav_bar .nav_items:hover{
+border-bottom: 3px solid yellow;
+
+}
+
+/*HOME SECTION*/
+
+.home{
+  padding-top: 20vh;
+  display :flex;
+  justify-content: space-between;
+  align-content: center;
+
+}
+.home .left{
+background-color: var(--bg-color);
+width:35rem;
+height: 13rem;
+text-align: center;
+padding:1.85rem;
+border-radius: 0.70rem;
+border: 1.50px solid yellow;
+justify-content: center;
+box-shadow: var(--box-shadow);
+display:inline-block;
+overflow-wrap: break-word;
+/*for shadow we will create a root variable at the top that can be use multibple times as it is a variable */
+}
+.home .right .img{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.home .right .img img{
+height: 15rem;
+width: 15rem;
+border-radius: 100%;
+border: 0.20rem solid yellow;
+animation-name: myImages;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+transition: smooth;
+}
+
+/*now lets apply some animation on my images */
+@keyframes myImages{
+0%{
+border-color: white;
+transform:translate(0,0); /*this property helps to move the image */
+box-shadow:10px 10px 100px 50px rgb(249, 250, 248);
+}
+25%{
+  border-color: yellowgreen;
+  box-shadow:10px 10px 100px 50px yellowgreen;
+}
+50%{
+  border-color: yellow;
+  transform:translate(0,10px); /*this property helps to move the image */
+  box-shadow:10px 10px 100px 50px yellow;
+}
+75%{
+  border-color: rgb(230, 195, 131);
+  box-shadow:10px 10px 100px 50px rgb(230, 195, 131);
+}
+100%{
+  border-color: rgb(27, 95, 6);
+  transform:translate(0,-0px); /*this property helps to move the image */
+  box-shadow:10px 10px 100px 50px rgb(30, 255, 0);
+}
+}
+/* css for expereience section*/
+.ex{
+  padding-top:20vh;
+  width:56rem;
+}
+.ex-items{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg-color);
+  margin: 1.3rem;
+  width:52rem;
+  padding:2rem;
+  border-radius: 0.75rem;
+  border: 0.12rem solid yellow;
+  box-shadow: var(--box-shadow);
+
+}
+/* skills section */
+
+
+.skills{
+width: 54.25rem;
+padding-top: 15vh;
+padding-bottom: 15vh;
+
+}
+.skills .items{
+  padding-top: 1.5rem;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+
+  width:43.75rem;
+  margin: auto;
+
+}
+.skills .items .item{
+width: calc(40%);
+margin: 1rem;
+background: black;
+text-align: center;
+padding:1rem;
+border-radius: 1rem;
+border:0.11rem solid yellow;
+box-shadow: var(--box-shadow);
+}
+.skills .items .item img{
+width: 4.38rem;
+}
+/* contact css */
+
+.cont_head{
+  padding-top:20vh;
+}
+.contact .contact-icon{
+
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+.contact-icon .items{
+  background-color: black;
+ margin:1rem;
+ height:70px;
+ width:70px;
+ display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 100%;
+border: 1px solid yellow;
+}
+.contact-icon .items .icons{
+  font-size: 2rem;
+}
+.contact-icon .items:hover{
+  background-color: yellowgreen;
+  color:black;
+  border: 1px solid yellow;
+  box-shadow: var(--box-shadow);
+}
