@@ -5,7 +5,7 @@ import Experience from "./components/Experience";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./App.css";
-import Project from "./components/Project";
+//import Project from "./components/Project";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import { useEffect } from "react";
@@ -22,7 +22,7 @@ function App() {
         <Home />
         <Experience />
         <Skills />
-        <Project />
+
         <Contact />
       </div>
     </>

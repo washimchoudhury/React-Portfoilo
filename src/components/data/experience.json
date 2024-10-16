@@ -10,32 +10,32 @@
       "Works on Python Programming",
       "Worked on ardino like Boffin,Esp32 "
     ],
-    "imageSrc": "company/google.png"
+    "imageSrc": "company/repl.png"
   },
   {
     "id": 2,
-    "role": "Software Development Engineer SDE - I",
-    "organisation": "Mirosoft",
-    "startDate": "Aug, 2022",
-    "endDate": "Aug, 2023",
-    "location": "London, UK",
+    "role": "IT trainer and Operations",
+    "organisation": "Anudip Foundation for Social Welfare",
+    "startDate": "April, 2023",
+    "endDate": "Dec, 2023",
+    "location": "Shillong, India",
     "experiences": [
-      "Worked on Windows 10 terminal",
-      "Worked on Window 11 Upcoming features"
+      "Enrolled students and trained them on IT subjects",
+      "Assured completion of course and made them job ready"
     ],
-    "imageSrc": "company/microsoft.png"
+    "imageSrc": "company/anudip.png"
   },
   {
     "id": 3,
-    "role": "Software Development Engineer - Intern",
-    "organisation": "Netflix",
-    "startDate": "Apr, 2021",
-    "endDate": "Jun, 2022",
-    "location": "Bengluru, India",
+    "role": "Computer Teacher",
+    "organisation": "Ramakrishna Mission Sohra",
+    "startDate": "Dec, 2020",
+    "endDate": "March, 2023",
+    "location": "Shillong, India",
     "experiences": [
-      "Worked on Nextflix payment system",
-      "Helped to create UI for video player"
+      "I was handling the classes from 7-12",
+      "Also worked in operations"
     ],
-    "imageSrc": "company/netflix.png"
+    "imageSrc": "company/sohra.png"
   }
 ]
